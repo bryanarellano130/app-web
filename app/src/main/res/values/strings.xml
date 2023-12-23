@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Online Sales</string>
+    <string name="Item_Inicio">Inicio</string>
+    <string name="Item_Chats">Chats</string>
+    <string name="Item_Vender">Vender</string>
+    <string name="Item_Anuncios">Anuncios</string>
+    <string name="Item_Cuenta">Cuenta</string>
+    <string name="TituloRL">Titulo</string>
+
+    <string name="Ingresar_facebook">Ingresar con Facebook</string>
+    <string name="Ingresar_gmail">Ingresar con Gmail</string>
+    <string name="Txt_login">Login de Usuario</string>
+    <string name="Et_facebook">Facebook</string>
+    <string name="Et_gmail">Gmail</string>
+    <string name="Et_contraseña">Contraseña</string>
+    <string name="Btn_ingresar">Ingresar</string>
+    <string name="Txt_no_cuenta">No tienes una Cuenta</string>
+    <string name="Txt_registrar">Registrar</string>
+    <string name="Txt_registro">Registro de Usuario</string>
+    <string name="Et_r_contraseña">Repetir Contraseña</string>
+    <string name="Btn_registrar">Registrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

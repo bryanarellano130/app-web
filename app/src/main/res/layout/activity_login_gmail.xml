@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Opciones_login.Login_gmail"
+    android:background="#B5ABAB">>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="@string/Txt_login"
+            android:textStyle="bold"
+            android:textColor="#F30E0D0D"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/login"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <!--Gmail-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp">
+
+            <EditText
+                android:id="@+id/Et_gmail"
+                android:hint="@string/Et_gmail"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Contraseña-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:passwordToggleEnabled="true">
+
+
+            <EditText
+                android:id="@+id/Et_contraseña"
+                android:hint="@string/Et_contraseña"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Boton_ingresar-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Btn_ingresar"
+            android:text="@string/Btn_ingresar"
+            android:textAllCaps="true"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="@string/Txt_no_cuenta"
+                android:textColor="#F30E0D0D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Txt_registrar"
+                android:text="@string/Txt_registrar"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
